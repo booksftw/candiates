@@ -10,6 +10,10 @@ require './filters'
 
 # binding.pry
 
-@candidates
+# puts experienced? (@candidates[0])
+# puts find @candidates[0][:id]
 
-puts experienced? (@candidates[0])
+# pp qualified_candidates (@candidates)
+
+pp ordered_by_qualifications(@candidates)
+
